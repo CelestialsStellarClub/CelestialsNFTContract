@@ -1293,7 +1293,7 @@ contract CSC is ERC721Enumerable, Ownable {
     uint256 supply = totalSupply();
     require(!paused, "Forging of exoplanets is currently paused.");
     require(_mintAmount > 0, "Forge amount must be greater than 0 exoplanets");
-    require((addressesMinted[msg.sender] + _mintAmount) <= maxMintAmount, "Max mint amount per address is 3 exoplanets");
+    require((addressesMinted[msg.sender] + _mintAmount) <= maxMintAmount, "Max mint amount surpassed");
     require(supply + _mintAmount <= maxSupply, "Cannot mint more exoplanets than available supply.");
     require(supply + _mintAmount <= stopSupplyMintAt, "Cannot mint more exoplanets than temporary cap.");
 
