@@ -1,15 +1,12 @@
-# Basic Sample Hardhat Project
+# Celestials stellar club NFT smart-contract deployed on the Ethereum chain
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Here is the ERC721 contract using IPFS to host each of our amazing exoplanets, 4962 ready to be collected.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+CONTRACT ADDRESS:
 ```
+0x0858DFC6c88137755049155426881dc2B04F89fc
+```
+
+Official links over etherscan:
+https://etherscan.io/address/0x0858DFC6c88137755049155426881dc2B04F89fc
+
